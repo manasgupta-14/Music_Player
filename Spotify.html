@@ -1,114 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify: My Fav Song</title>
-  <link rel="stylesheet" href="Css/Spotifystyle.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - 90's Playlist</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="Css/Spotify1.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li class="brand"><img src="img/logo.png" alt="Logo"> Spotify </li>
-      <li>Home</li>
-      <li>About</li>
-    </ul>
-  </nav>
-
-  <div class="container">
-    <div class="songlist">
-      <h1>90's Song : Mood Refreshing Song</h1>
-
-      <div class="songItemContainer mt-5">
-        <div class="songItem">
-          <img src="covers/1.jpg" alt="1">
-          <span class="songName">Bholi Si Surat</span>
-          <span class="songlistplay"><span class="timestamp">04:12 <i class="fa fa-play-circle songItemPlay" id="0"></i> </span></span>
+    <nav>
+        <div class="brand">
+            <i class="fab fa-spotify"></i> Spotify
         </div>
+        <ul class="nav-links">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+            <li class="divider">|</li>
+            <li><a href="#" class="btn-signup">Sign up</a></li>
+            <li><a href="#" class="btn-login">Log in</a></li>
+        </ul>
+    </nav>
 
-        <div class="songItem">
-          <img src="covers/2.jpg" alt="2">
-          <span class="songName">Dekhne walon ne</span>
-          <span class="songlistplay"><span class="timestamp">06:13 <i class="fa fa-play-circle songItemPlay" id="1"></i> </span></span>
+    <div class="playlist-header">
+        <div class="playlist-cover">
+            <i class="fas fa-music"></i>
         </div>
-
-        <div class="songItem">
-          <img src="covers/3.jpg" alt="3">
-          <span class="songName">Kitna Pyaara Tujhe </span>
-          <span class="songlistplay"><span class="timestamp">06:22 <i class="fa fa-play-circle songItemPlay" id="2"></i> </span></span>
+        <div class="playlist-info">
+            <p>Public Playlist</p>
+            <h1>Mood Refreshing 90's</h1>
+            <p>Your favorite 90's hits, all in one place.</p>
         </div>
-
-        <div class="songItem">
-          <img src="covers/4.jpg" alt="1">
-          <span class="songName" >Ladki Badi Anjani</span>
-          <span class="songlistplay"><span class="timestamp">06:21 <i class="fa fa-play-circle songItemPlay" id="3"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/5.jpg" alt="1">
-          <span class="songName" >Love You Zindagi</span>
-          <span class="songlistplay"><span class="timestamp">04:11 <i class="fa fa-play-circle songItemPlay" id="4"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/6.jpg" alt="1">
-          <span class="songName" >Neele Neele Ambar Par</span>
-          <span class="songlistplay"><span class="timestamp">05:20 <i class="fa fa-play-circle songItemPlay" id="5"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/7.jpg" alt="1">
-          <span class="songName" >O Jaana</span>
-          <span class="songlistplay"><span class="timestamp">05:26 <i class="fa fa-play-circle songItemPlay" id="6"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/8.jpg" alt="1">
-          <span class="songName" >Tu Jo Has Has Ke</span>
-          <span class="songlistplay"><span class="timestamp">05:07 <i class="fa fa-play-circle songItemPlay" id="7"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/9.jpg" alt="1">
-          <span class="songName" >Tumse Milne Ko Dil</span>
-          <span class="songlistplay"><span class="timestamp">05:34 <i class="fa fa-play-circle songItemPlay" id="8"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/10.jpg" alt="1">
-          <span class="songName" >Yeh Pyar Kaise</span>
-          <span class="songlistplay"><span class="timestamp">08:55 <i class="fa fa-play-circle songItemPlay" id="9"></i> </span></span>
-        </div>
-      </div>
     </div>
 
-    <div class="songBanner"></div>
-  </div>
+    <!-- Main Song List -->
+    <div class="container">
+        
+        <!-- Table Header -->
+        <div class="list-header">
+            <div>Sr.</div>
+            <div>Title</div>
+            <div style="text-align: right;"><i class="far fa-clock"></i></div>
+        </div>
 
-  <div class="bottom">
-    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="songlist">
+            <!-- Song 1 -->
+            <div class="songItem">
+                <div class="song-index">1</div>
+                <div class="song-details">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Bholi Si Surat</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:12</span>
+                    <i class="fa fa-play-circle songItemPlay" id="0"></i>
+                </div>
+            </div>
 
-    <div class="icons">
-      <i class="fa fa-step-backward" id="previous" style="font-size:60px"></i>
-      <i class="fa fa-play-circle" id="masterPlay" style="font-size:60px"></i>
-      <i class="fa fa-step-forward" id="next" style="font-size:60px"></i>
+            <!-- Song 2 -->
+            <div class="songItem">
+                <div class="song-index">2</div>
+                <div class="song-details">
+                    <img src="covers/2.jpg" alt="2">
+                    <span class="songName">Dekhne walon ne</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">06:13</span>
+                    <i class="fa fa-play-circle songItemPlay" id="1"></i>
+                </div>
+            </div>
+
+            <!-- Song 3 -->
+            <div class="songItem">
+                <div class="song-index">3</div>
+                <div class="song-details">
+                    <img src="covers/3.jpg" alt="3">
+                    <span class="songName">Kitna Pyaara Tujhe</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">06:22</span>
+                    <i class="fa fa-play-circle songItemPlay" id="2"></i>
+                </div>
+            </div>
+
+            <!-- Song 4 -->
+            <div class="songItem">
+                <div class="song-index">4</div>
+                <div class="song-details">
+                    <img src="covers/4.jpg" alt="4">
+                    <span class="songName">Ladki Badi Anjani</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">06:21</span>
+                    <i class="fa fa-play-circle songItemPlay" id="3"></i>
+                </div>
+            </div>
+
+            <!-- Song 5 -->
+            <div class="songItem">
+                <div class="song-index">5</div>
+                <div class="song-details">
+                    <img src="covers/5.jpg" alt="5">
+                    <span class="songName">Love You Zindagi</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:11</span>
+                    <i class="fa fa-play-circle songItemPlay" id="4"></i>
+                </div>
+            </div>
+
+            <!-- Song 6 -->
+            <div class="songItem">
+                <div class="song-index">6</div>
+                <div class="song-details">
+                    <img src="covers/6.jpg" alt="6">
+                    <span class="songName">Neele Neele Ambar Par</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">05:20</span>
+                    <i class="fa fa-play-circle songItemPlay" id="5"></i>
+                </div>
+            </div>
+
+            <!-- Song 7 -->
+            <div class="songItem">
+                <div class="song-index">7</div>
+                <div class="song-details">
+                    <img src="covers/7.jpg" alt="7">
+                    <span class="songName">O Jaana</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">05:26</span>
+                    <i class="fa fa-play-circle songItemPlay" id="6"></i>
+                </div>
+            </div>
+
+            <!-- Song 8 -->
+            <div class="songItem">
+                <div class="song-index">8</div>
+                <div class="song-details">
+                    <img src="covers/8.jpg" alt="8">
+                    <span class="songName">Tu Jo Has Has Ke</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">05:07</span>
+                    <i class="fa fa-play-circle songItemPlay" id="7"></i>
+                </div>
+            </div>
+
+            <!-- Song 9 -->
+            <div class="songItem">
+                <div class="song-index">9</div>
+                <div class="song-details">
+                    <img src="covers/9.jpg" alt="9">
+                    <span class="songName">Tumse Milne Ko Dil</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fa fa-play-circle songItemPlay" id="8"></i>
+                </div>
+            </div>
+
+            <!-- Song 10 -->
+            <div class="songItem">
+                <div class="song-index">10</div>
+                <div class="song-details">
+                    <img src="covers/10.jpg" alt="10">
+                    <span class="songName">Yeh Pyar Kaise</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">08:55</span>
+                    <i class="fa fa-play-circle songItemPlay" id="9"></i>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="songInfo">
-      <img src="img/playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Bholi Si Surat</span>
-    </div>
-    <div class="playtime">
-      <span id="playDuration">0:00</span>
-    </div>
-  </div> 
+    <!-- Fixed Bottom Player -->
+    <div class="bottom">
+        
+        <!-- Left: Current Song Info -->
+        <div class="songInfo">
+            <img src="img/playing.gif" alt="playing indicator" id="gif">
+            <span id="masterSongName">Bholi Si Surat</span>
+        </div>
 
-  
+        <!-- Center: Controls & Range Slider -->
+        <div class="player-center">
+            <div class="icons">
+                <i class="fas fa-step-backward" id="previous"></i>
+                <i class="fas fa-play-circle" id="masterPlay"></i>
+                <i class="fas fa-step-forward" id="next"></i>
+            </div>
+            
+            <div class="progress-container">
+                <span class="playtime" id="playDuration">0:00</span>
+                <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+                <!-- Static end time just for visuals -->
+                <span class="playtime">5:34</span> 
+            </div>
+        </div>
 
-  <script src="Js/SpotifyJs.js"></script>
+        <!-- Right: Extra Icons (Volume/Settings) -->
+        <div class="player-right">
+            <i class="fas fa-microphone"></i>
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+    </div> 
+
+    <!-- Keep your Javascript File exact same -->
+    <script src="Js/SpotifyJs.js"></script>
 </body>
 </html>

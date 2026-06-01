@@ -1,114 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify: My Fav Song</title>
-  <link rel="stylesheet" href="Css/Spotifystyle.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
-  <script src="https://kit.fontawesome.com/695e0291e6.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - New Songs</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="Css/Spotify2.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li class="brand"><img src="img/logo.png" alt="Logo"> Spotify </li>
-      <li>Home</li>
-      <li>About</li>
-    </ul>
-  </nav>
-
-  <div class="container1">
-    <div class="songlist">
-      <h1>New Song : Mood Refreshing Song</h1>
-
-      <div class="songItemContainer mt-5">
-        <div class="songItem">
-          <img src="covers/new1.jpg" alt="1">
-          <span class="songName">Heeriye</span>
-          <span class="songlistplay"><span class="timestamp">03:19 <i class="fa fa-play-circle songItemPlay" id="0"></i> </span></span>
+    <nav>
+        <div class="brand">
+            <i class="fab fa-spotify"></i> Spotify
         </div>
+        <ul class="nav-links">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+            <li class="divider">|</li>
+            <li><a href="#" class="btn-signup">Sign up</a></li>
+            <li><a href="#" class="btn-login">Log in</a></li>
+        </ul>
+    </nav>
 
-        <div class="songItem">
-          <img src="covers/new2.jpg" alt="2">
-          <span class="songName">Kabhi Shaam Dhale</span>
-          <span class="songlistplay"><span class="timestamp">04:07 <i class="fa fa-play-circle songItemPlay" id="1"></i> </span></span>
+    <div class="playlist-header">
+        <div class="playlist-cover">
+            <i class="fas fa-fire"></i>
         </div>
-
-        <div class="songItem">
-          <img src="covers/new3.jpg" alt="3">
-          <span class="songName">O Mahi O Mahi</span>
-          <span class="songlistplay"><span class="timestamp">03:53 <i class="fa fa-play-circle songItemPlay" id="2"></i> </span></span>
+        <div class="playlist-info">
+            <p>Trending Playlist</p>
+            <h1>Mood Refreshing: New</h1>
+            <p>The latest tracks to keep your vibe fresh.</p>
         </div>
-
-        <div class="songItem">
-          <img src="covers/new4.jpg" alt="1">
-          <span class="songName" >O Sajni Re</span>
-          <span class="songlistplay"><span class="timestamp">02:50 <i class="fa fa-play-circle songItemPlay" id="3"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/new5.jpg" alt="1">
-          <span class="songName" >Pehle Bhi Main</span>
-          <span class="songlistplay"><span class="timestamp">04:10 <i class="fa fa-play-circle songItemPlay" id="4"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/new6.jpg" alt="1">
-          <span class="songName" >Sanam Re</span>
-          <span class="songlistplay"><span class="timestamp">04:29 <i class="fa fa-play-circle songItemPlay" id="5"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/new7.jpg" alt="1">
-          <span class="songName" >Soni Soni</span>
-          <span class="songlistplay"><span class="timestamp">03:13 <i class="fa fa-play-circle songItemPlay" id="6"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/new8.jpg" alt="1">
-          <span class="songName" >Soulmate</span>
-          <span class="songlistplay"><span class="timestamp">03:33 <i class="fa fa-play-circle songItemPlay" id="7"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/9.jpg" alt="1">
-          <span class="songName" >Tu Hai Kahan</span>
-          <span class="songlistplay"><span class="timestamp">04:23 <i class="fa fa-play-circle songItemPlay" id="8"></i> </span></span>
-        </div>
-
-        <div class="songItem">
-          <img src="covers/new10.jpg" alt="1">
-          <span class="songName" >Mann Meri Jaan</span>
-          <span class="songlistplay"><span class="timestamp">03:14 <i class="fa fa-play-circle songItemPlay" id="9"></i> </span></span>
-        </div>
-      </div>
     </div>
 
-    <div class="songBanner"></div>
-  </div>
+    <div class="container1">
+        
+        <div class="list-header">
+            <div>#</div>
+            <div>Title</div>
+            <div style="text-align: right;"><i class="far fa-clock"></i></div>
+        </div>
 
-  <div class="bottom">
-    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="songlist">
+            <div class="songItem">
+                <div class="song-index">1</div>
+                <div class="song-details">
+                    <img src="covers/new1.jpg" alt="1">
+                    <span class="songName">Heeriye</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">03:19</span>
+                    <i class="fa fa-play-circle songItemPlay" id="0"></i>
+                </div>
+            </div>
 
-    <div class="icons">
-      <i class="fa fa-step-backward" id="previous" style="font-size:60px"></i>
-      <i class="fa fa-play-circle" id="masterPlay" style="font-size:60px"></i>
-      <i class="fa fa-step-forward" id="next" style="font-size:60px"></i>
+            <div class="songItem">
+                <div class="song-index">2</div>
+                <div class="song-details">
+                    <img src="covers/new2.jpg" alt="2">
+                    <span class="songName">Kabhi Shaam Dhale</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:07</span>
+                    <i class="fa fa-play-circle songItemPlay" id="1"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">3</div>
+                <div class="song-details">
+                    <img src="covers/new3.jpg" alt="3">
+                    <span class="songName">O Mahi O Mahi</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">03:53</span>
+                    <i class="fa fa-play-circle songItemPlay" id="2"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">4</div>
+                <div class="song-details">
+                    <img src="covers/new4.jpg" alt="4">
+                    <span class="songName">O Sajni Re</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">02:50</span>
+                    <i class="fa fa-play-circle songItemPlay" id="3"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">5</div>
+                <div class="song-details">
+                    <img src="covers/new5.jpg" alt="5">
+                    <span class="songName">Pehle Bhi Main</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:10</span>
+                    <i class="fa fa-play-circle songItemPlay" id="4"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">6</div>
+                <div class="song-details">
+                    <img src="covers/new6.jpg" alt="6">
+                    <span class="songName">Sanam Re</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:29</span>
+                    <i class="fa fa-play-circle songItemPlay" id="5"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">7</div>
+                <div class="song-details">
+                    <img src="covers/new7.jpg" alt="7">
+                    <span class="songName">Soni Soni</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">03:13</span>
+                    <i class="fa fa-play-circle songItemPlay" id="6"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">8</div>
+                <div class="song-details">
+                    <img src="covers/new8.jpg" alt="8">
+                    <span class="songName">Soulmate</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">03:33</span>
+                    <i class="fa fa-play-circle songItemPlay" id="7"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">9</div>
+                <div class="song-details">
+                    <img src="covers/9.jpg" alt="9">
+                    <span class="songName">Tu Hai Kahan</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">04:23</span>
+                    <i class="fa fa-play-circle songItemPlay" id="8"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="song-index">10</div>
+                <div class="song-details">
+                    <img src="covers/new10.jpg" alt="10">
+                    <span class="songName">Mann Meri Jaan</span>
+                </div>
+                <div class="songlistplay">
+                    <span class="timestamp">03:14</span>
+                    <i class="fa fa-play-circle songItemPlay" id="9"></i>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-    <div class="songInfo">
-      <img src="img/playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Heeriye</span>
-    </div>
-    <div class="playtime">
-      <span id="playDuration">0:00</span>
-    </div>
-  </div> 
+    <div class="bottom">
+        
+        <div class="songInfo">
+            <img src="img/playing.gif" alt="playing indicator" id="gif">
+            <span id="masterSongName">Heeriye</span>
+        </div>
 
-  
+        <div class="player-center">
+            <div class="icons">
+                <i class="fas fa-step-backward" id="previous"></i>
+                <i class="fas fa-play-circle" id="masterPlay"></i>
+                <i class="fas fa-step-forward" id="next"></i>
+            </div>
+            
+            <div class="progress-container">
+                <span class="playtime" id="playDuration">0:00</span>
+                <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+                <span class="playtime">3:19</span> 
+            </div>
+        </div>
 
-  <script src="Js/SpotifyJs2.js"></script>
+        <div class="player-right">
+            <i class="fas fa-microphone"></i>
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+    </div> 
+
+    <script src="Js/SpotifyJs2.js"></script>
 </body>
 </html>
