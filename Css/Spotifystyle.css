@@ -50,7 +50,7 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url('../bg1.png');
+  background-image: url('../img/bg1.png');
   background-size: cover;
 }
 .container1{
@@ -64,7 +64,7 @@ nav ul li {
   width: 70%;
   border-radius: 12px;
   padding: 34px;
-  background-image: url('../newbg1.png');
+  background-image: url('../img/newbg1.png');
   background-size: cover;
 }
 
