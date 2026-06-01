@@ -1,92 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Index</title>
-  <link rel="stylesheet" href="Css/Spotifystyle.css">
-  <link rel="stylesheet" href="./Css/indexCss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="Css/indexCss.css">
+    <style>
+      
+    </style>
 </head>
 <body>
+    <nav>
+        <div class="brand">
+            <i class="fab fa-spotify"></i> Spotify
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+            <li class="divider">|</li>
+            <li><a href="#" class="btn-signup">Sign up</a></li>
+            <li><a href="#" class="btn-login">Log in</a></li>
+        </ul>
+    </nav>
 
-  <nav>
-    <ul>
-      <li class="brand"><img src="img/logo.png" alt="Logo"> Spotify </li>
-      <li>Home</li>
-      <li>About</li>
-    </ul>
-  </nav>
+    <header class="hero">
+        <h1>Music for everyone.</h1>
+        <p>Millions of songs. Unlimited Vibes.</p>
+    </header>
 
-  <div class="conatiner">
-    <div class="row">
-    <div class="col-lg-6 col-sm-12 col-md-6 col-6 col-xxl-6 col-xl-6">
-    <div class="card">
-      <a href="Spotify.html"><img src="img/90's.jpg" alt="" class="d-block"></a>
-      <div class="content">
-        <a href="Spotify.html">90's Song</a>
-      </div>
+    <div class="container">
+        
+        <div class="section-header">
+            <h2>Spotify Playlists</h2>
+            <a href="#" class="see-all">Show all</a>
+        </div>
+
+        <div class="row">
+
+            <div class="card">
+                <div class="img-wrapper">
+                  <a href="Spotify.html">
+                    <img src="img/90's-2.jpg" alt="90s Songs">
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                  </a>
+                </div>
+                <h3>All Out 90s</h3>
+                <p>The biggest songs of the 1990s.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="img-wrapper">
+                  <a href="Spotify2.html">
+                    <img src="img/newSong.jpg" alt="Latest Songs">
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                  </a>
+                </div>
+                <h3>Today's Top Hits</h3>
+                <p>Post Malone is on top of the Hottest 50!</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=400&q=80" alt="Live Music">
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <h3>Mega Hit Mix</h3>
+                <p>A mega mix of 75 favorites from the last few years!</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=400&q=80" alt="Party Music">
+                    <button class="play-btn"><i class="fas fa-play"></i></button>
+                </div>
+                <h3>Dance Party</h3>
+                <p>Keep the party going with these dance hits.</p>
+            </div>
+        </div>
+
     </div>
-  </div>
 
-  <div class="col-lg-6 col-sm-12 col-md-6 col-6 col-xxl-6 col-xl-6">
-    <div class="card">
-      <a href="Spotify2.html"><img src="img/newSong.jpg" alt=""  class="d-block"></a>
-      <div class="content">
-        <a href="Spotify2.html">New Song</a>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Communities</h4>
+                    <ul>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+            </div>
 
-  <div class="footer">
-    <div class="footer-content">
-    <ul>
-      <li class="list">Company</li>
-      <li>About</li>
-      <li>Jobs</li>
-      <li>For the Record</li>
-    </ul>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spotify AB Clone</p>
+        </div>
+    </footer>
 
-  </div>
-
-  <div class="footer-content">
-    <ul>
-      <li class="list">Communities</li>
-      <li>For Artist</li>
-      <li>Developers</li>
-      <li>vendors</li>
-    </ul>
-
-  </div>
-
-  <div class="footer-content">
-    <ul>
-      <li class="list">Useful Links</li>
-      <li>Support</li>
-      <li>Free Mobile App</li>
-    </ul>
-
-  </div>
-  <div class="footer-content">
-    <ul>
-      <li class="list">Spotify Plans</li>
-      <li>Premium Individual</li>
-      <li>Premium Student</li>
-      <li>Spotify Free</li>
-    </ul>
-
-  </div>
-
-  <div class="footer-content">
-    <ul>
-      <li><img src="img/Facebook.png" alt=""></li>
-      <li><img src="img/Instagram.png" alt=""></li>
-      <li><img src="img/Youtube.png" alt=""></li>
-    </ul>
-
-  </div>
-
-  </div>
 </body>
 </html>
